@@ -5,7 +5,7 @@ go下载：https://go.dev/dl/
 headscale下载：https://github.com/juanfont/headscale/releases  
 headscale-ui下载：https://github.com/gurucomputing/headscale-ui/releases  
 文件下载好之后，上传到服务器的/root目录下  
-这里有两个脚本，需要分别执行命令  
+## 这里有两个脚本，需要分别执行命令  
 1、一键搭建Derp服务器需要用以下命令      
 ```bash
 chmod +x tailscale.sh && ./tailscale.sh
