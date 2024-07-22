@@ -6,7 +6,7 @@
 [headscale-ui下载](https://github.com/gurucomputing/headscale-ui/releases)  
 文件下载好之后，上传到服务器的/root目录下  
 
-## 这里有两个脚本，需要分别执行命令  
+## 下载好文件并上传到/root目录之后  
 1、安装git  
 ```
 sudo apt install git -y
