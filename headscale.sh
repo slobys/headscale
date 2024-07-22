@@ -9,7 +9,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y wget unzip
 
 # 重命名并安装Headscale
-mv headscale_0.23.0-alpha12_linux_amd64.deb headscale.deb
+mv headscale_0.22.3_linux_amd64.deb headscale.deb
 sudo dpkg -i headscale.deb
 
 # 设置Headscale开机自启并启动
