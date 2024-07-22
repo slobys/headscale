@@ -12,13 +12,14 @@ sudo apt install git -y
 ```
 2、下载一键脚本并把脚本放到/root目录下
 ```
-sudo apt install git -y
+git clone https://github.com/slobys/headscale.git && sudo mv headscale/* /root/
+
 ```
-1、一键搭建Derp服务器需要用以下命令      
+3、一键搭建Derp服务器需要用以下命令      
 ```
 chmod +x tailscale.sh && ./tailscale.sh
 ```
-2、一键搭建Headscale和Headscale-ui需要用以下命令
+4、一键搭建Headscale和Headscale-ui需要用以下命令
 ```
 chmod +x headscale.sh && ./headscale.sh
 ```
