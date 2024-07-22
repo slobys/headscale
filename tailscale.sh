@@ -36,7 +36,7 @@ apt update && apt upgrade -y
 # 安装依赖包
 apt install -y wget git openssl curl
 # 下载并安装Go
-GO_VERSION="go1.22.4"   #这个可以替换为最新的版本
+GO_VERSION="go1.22.5"   #这个可以替换为最新的版本
 rm -rf /usr/local/go && tar -C /usr/local -xzf ${GO_VERSION}.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 echo "export PATH=\$PATH:/usr/local/go/bin" >> /etc/profile
