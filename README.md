@@ -1,6 +1,6 @@
 # 使用说明  
 本脚本适用于国内安装，因此需要提前下载好对应的文件 
-## 具体需要下载的文件如下：    
+## 使用前需要提前下载以下三个文件：    
 [go下载](https://go.dev/dl/)  
 [headscale下载](https://github.com/juanfont/headscale/releases/tag/v0.22.3) **注意：请下载稳定版v0.22.3，目前测试新版安装后容易掉线**  
 [headscale-ui下载](https://github.com/gurucomputing/headscale-ui/releases)  
