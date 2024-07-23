@@ -2,7 +2,7 @@
 本脚本适用于国内安装，因此需要提前下载好对应的文件  
 ## 具体需要下载的文件如下：    
 [go下载](https://go.dev/dl/)  
-[headscale下载](https://github.com/juanfont/headscale/releases) **注意：请下载稳定版v0.22.3，目前测试新版有问题**  
+[headscale下载](https://github.com/juanfont/headscale/releases/tag/v0.22.3) **注意：请下载稳定版v0.22.3，目前测试新版有问题**  
 [headscale-ui下载](https://github.com/gurucomputing/headscale-ui/releases)  
 文件下载好之后，上传到服务器的/root目录下  
 
