@@ -92,8 +92,8 @@ EOF"
 
 # 修改Headscale配置文件
 sudo sed -i "s|^server_url:.*|server_url: http://$SERVER_IP:$HEADSCALE_PORT|" /etc/headscale/config.yaml
-sudo sed -i "s|^\( *\)- 100.64.0.0/10|\1- $IP_PREFIX/24|" /etc/headscale/config.yaml
-sudo sed -i "s|^\( *\)- fd7a:115c:a1e0::/48|#\1- fd7a:115c:a1e0::/48|" /etc/headscale/config.yaml
+sudo sed -i "s|^\( *\)v4: 100.64.0.0/10|\1v4: $IP_PREFIX/24|" /etc/headscale/config.yaml
+sudo sed -i "s|^\( *\)v6: fd7a:115c:a1e0::/48|#\1v6: fd7a:115c:a1e0::/48|" /etc/headscale/config.yaml
 sudo sed -i "s|^\( *\)- https://controlplane.tailscale.com/derpmap/default|#\1- https://controlplane.tailscale.com/derpmap/default\n\1- http://127.0.0.1/d/derp.json|" /etc/headscale/config.yaml
 
 # 重启服务
